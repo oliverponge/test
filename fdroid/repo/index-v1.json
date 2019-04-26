@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1556283187000,
+    "timestamp": 1556284369000,
     "version": 19,
     "name": "MT-ITS",
     "icon": "default-repo-icon.png",
@@ -412,6 +412,15 @@
           "summary": "KeePass Deluxe, gestionnaire de mots de passe s\u00e9curis\u00e9 et open source\n"
         }
       }
+    },
+    {
+      "suggestedVersionCode": "187",
+      "license": "Unknown",
+      "name": "Mattermost",
+      "added": 1556284365000,
+      "icon": "com.mattermost.rn.187.png",
+      "packageName": "com.mattermost.rn",
+      "lastUpdated": 1556284368000
     },
     {
       "categories": [
@@ -864,6 +873,148 @@
         ],
         "versionCode": 18,
         "versionName": "2.5.0.0beta18"
+      }
+    ],
+    "com.mattermost.rn": [
+      {
+        "added": 1556284368000,
+        "apkName": "Mattermost.apk",
+        "hash": "a553ec8e8731b73f4affc83f924ae5d0e724b75ec1ea22c409ea01eb5b31876f",
+        "hashType": "sha256",
+        "minSdkVersion": "24",
+        "nativecode": [
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "com.mattermost.rn",
+        "sig": "3e417ccecbf5e30584655428e06eed7f",
+        "signer": "5ca732ab1f657dd9e4beff0840a8b9d19c59c30de3adcf4be6a2927226c11f4f",
+        "size": 34654566,
+        "targetSdkVersion": "26",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            18
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.mattermost.rn.permission.C2D_MESSAGE",
+            null
+          ],
+          [
+            "com.android.vending.CHECK_LICENSE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "com.google.android.c2dm.permission.RECEIVE",
+            null
+          ],
+          [
+            "com.sec.android.provider.badge.permission.READ",
+            null
+          ],
+          [
+            "com.sec.android.provider.badge.permission.WRITE",
+            null
+          ],
+          [
+            "com.htc.launcher.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "com.htc.launcher.permission.UPDATE_SHORTCUT",
+            null
+          ],
+          [
+            "com.sonyericsson.home.permission.BROADCAST_BADGE",
+            null
+          ],
+          [
+            "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+            null
+          ],
+          [
+            "com.anddoes.launcher.permission.UPDATE_COUNT",
+            null
+          ],
+          [
+            "com.majeur.launcher.permission.UPDATE_BADGE",
+            null
+          ],
+          [
+            "com.huawei.android.launcher.permission.CHANGE_BADGE",
+            null
+          ],
+          [
+            "com.huawei.android.launcher.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.READ_APP_BADGE",
+            null
+          ],
+          [
+            "com.oppo.launcher.permission.READ_SETTINGS",
+            null
+          ],
+          [
+            "com.oppo.launcher.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "me.everything.badger.permission.BADGE_COUNT_READ",
+            null
+          ],
+          [
+            "me.everything.badger.permission.BADGE_COUNT_WRITE",
+            null
+          ]
+        ],
+        "versionCode": 187,
+        "versionName": "1.18.1"
       }
     ],
     "com.vrem.wifianalyzer": [

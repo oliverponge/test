@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1556282580000,
+    "timestamp": 1556282605000,
     "version": 19,
     "name": "MT-ITS",
     "icon": "default-repo-icon.png",
@@ -619,6 +619,87 @@
     },
     {
       "categories": [
+        "Phone & SMS"
+      ],
+      "suggestedVersionCode": "115",
+      "license": "Unknown",
+      "name": "Sipdroid",
+      "webSite": "http://sipdroid.org",
+      "added": 1556282595000,
+      "icon": "org.sipdroid.sipua.115.png",
+      "packageName": "org.sipdroid.sipua",
+      "lastUpdated": 1556282605000,
+      "localized": {
+        "af": {
+          "summary": "Gratis SIP / VoIP kli\u00ebnt\n"
+        },
+        "am": {
+          "summary": "\u1290\u133b \u12e8 SIP / \u126a\u12a6\u12a0\u12ed\u1352 \u1270\u1308\u120d\u130b\u12ed\n"
+        },
+        "ar": {
+          "summary": "\u0645\u062c\u0627\u0646\u0627 SIP / \u0627\u0644\u0635\u0648\u062a \u0639\u0628\u0631 \u0628\u0631\u0648\u062a\u0648\u0643\u0648\u0644 \u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a \u0639\u0645\u064a\u0644\n"
+        },
+        "bg": {
+          "summary": "Free SIP / VoIP \u043a\u043b\u0438\u0435\u043d\u0442\n"
+        },
+        "de": {
+          "summary": "Freier SIP/VoIP-Client\n"
+        },
+        "el": {
+          "summary": "\u0394\u03c9\u03c1\u03b5\u03ac\u03bd SIP / VoIP \u03c0\u03b5\u03bb\u03ac\u03c4\u03b7\n"
+        },
+        "en": {
+          "description": "<p>A SIP (VOIP) client with video calling capabilities. Visit the website for more info. For optimal battery usage reserve a free VoIP PBX on pbxes.org, and manage your SIP trunks using a web browser.</p>"
+        },
+        "en-US": {
+          "summary": "A SIP (VOIP) client\n"
+        },
+        "fi": {
+          "summary": "Ilmainen SIP / VoIP Client\n"
+        },
+        "fr": {
+          "summary": "Un client SIP (VOIP)\n"
+        },
+        "is": {
+          "summary": "A SIP (VOIP) bi\u00f0laraforrit\n"
+        },
+        "ja": {
+          "summary": "\u7121\u6599\u306eSIP / VoIP\u306e\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\n"
+        },
+        "ko": {
+          "summary": "\ubb34\ub8cc SIP / VoIP\ub97c \ud074\ub77c\uc774\uc5b8\ud2b8\n"
+        },
+        "lt": {
+          "summary": "Nemokama SIP / VoIP klientas\n"
+        },
+        "lv": {
+          "summary": "Bezmaksas SIP / VoIP Client\n"
+        },
+        "mr": {
+          "summary": "\u092e\u0941\u092b\u094d\u0924 \u090f\u0938\u0906\u0908\u092a\u0940 / \u0935\u0940\u0913\u0906\u0908\u092a\u0940 \u0917\u094d\u0930\u093e\u0939\u0915\n"
+        },
+        "ru": {
+          "summary": "\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439 SIP / VoIP \u043a\u043b\u0438\u0435\u043d\u0442\n"
+        },
+        "sl": {
+          "summary": "Brezpla\u010dna SIP / VoIP odjemalec\n"
+        },
+        "th": {
+          "summary": "\u0e1f\u0e23\u0e35 SIP / VoIP \u0e25\u0e39\u0e01\u0e04\u0e49\u0e32\n"
+        },
+        "uk": {
+          "summary": "\u0411\u0435\u0437\u043a\u043e\u0448\u0442\u043e\u0432\u043d\u0438\u0439 SIP / VoIP \u043a\u043b\u0456\u0454\u043d\u0442\n"
+        },
+        "vi": {
+          "summary": "Mi\u1ec5n ph\u00ed SIP / VoIP kh\u00e1ch h\u00e0ng\n"
+        },
+        "zh-CN": {
+          "summary": "SIP\uff08VoIP\uff09\u5ba2\u6237\u7aef\n"
+        }
+      }
+    },
+    {
+      "categories": [
         "Connectivity"
       ],
       "suggestedVersionCode": "44",
@@ -1061,6 +1142,136 @@
         ],
         "versionCode": 40204,
         "versionName": "4.2.4"
+      }
+    ],
+    "org.sipdroid.sipua": [
+      {
+        "added": 1556282605000,
+        "apkName": "org.sipdroid.sipua_115.apk",
+        "hash": "e0bc6af43ffc5304fe0d01b1493a1e26b3fa1255fb223f8ee0a757b331a43ec7",
+        "hashType": "sha256",
+        "minSdkVersion": "11",
+        "nativecode": [
+          "armeabi",
+          "armeabi-v7a"
+        ],
+        "packageName": "org.sipdroid.sipua",
+        "sig": "7d6cbe286ab9dcae4628a4336b50ea6c",
+        "signer": "534883ad19ff09e9ce5cf4b6b190e13ba03487a817225705cbf111840fce3b84",
+        "size": 1000261,
+        "targetSdkVersion": "26",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.PROCESS_OUTGOING_CALLS",
+            null
+          ],
+          [
+            "android.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.CALL_PHONE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.DISABLE_KEYGUARD",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.GET_ACCOUNTS",
+            null
+          ],
+          [
+            "android.permission.BROADCAST_STICKY",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.WRITE_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERACT_ACROSS_USERS_FULL",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 115,
+        "versionName": "4.4 beta"
       }
     ]
   }

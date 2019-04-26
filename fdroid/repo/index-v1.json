@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1556282435000,
+    "timestamp": 1556282535000,
     "version": 19,
     "name": "MT-ITS",
     "icon": "default-repo-icon.png",
@@ -16,6 +16,285 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "categories": [
+        "Security",
+        "System"
+      ],
+      "suggestedVersionCode": "40204",
+      "license": "Unknown",
+      "name": "AdAway",
+      "webSite": "https://adaway.org/",
+      "added": 1556282496000,
+      "icon": "org.adaway.40204.png",
+      "packageName": "org.adaway",
+      "lastUpdated": 1556282535000,
+      "localized": {
+        "af": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "ar": {
+          "description": "\u0645\u0627\u0646\u0639 \u0625\u0639\u0644\u0627\u0646\u0627\u062a \u064a\u0633\u062a\u0639\u0645\u0644 \u0645\u0644\u0641 \u0627\u0644hosts.\n\u0645\u0644\u0641 \u0627\u0644\u0645\u0636\u064a\u0641 \u0639\u0628\u0627\u0631\u0629 \u0639\u0646 \u0645\u0644\u0641 \u0646\u0638\u0627\u0645 \u064a\u062d\u062a\u0648\u064a \u0639\u0644\u0649 \u0642\u0627\u0626\u0645\u0629 \u062a\u0639\u064a\u064a\u0646\u0627\u062a \u0628\u064a\u0646 \u0623\u0633\u0645\u0627\u0621 \u0627\u0644\u0645\u0636\u064a\u0641\u064a\u0646 \u0648\u0639\u0646\u0627\u0648\u064a\u0646 \u0627\u0644\u0640 IP.\n\u0639\u0646\u062f\u0645\u0627 \u064a\u0642\u0648\u0645\u064f \u062a\u0637\u0628\u064a\u0642 \u0645\u0627 \u0628\u0637\u0644\u0628 \u0625\u0639\u0644\u0627\u0646 \u0645\u0646 \u0645\u0636\u064a\u0641 \u0641\u064a \u0630\u0644\u0643 \u0627\u0644\u0645\u0644\u0641 \u060c \u062a\u062a\u0645 \u0625\u0639\u0627\u062f\u0629 \u062a\u0648\u062c\u064a\u0647 \u0647\u0630\u0627 \u0627\u0644\u0637\u0644\u0628 \u0625\u0644\u0649 \u0627\u0644\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0645\u062d\u0644\u064a 127.0.0.1 \u0627\u0644\u0630\u064a \u0628\u062f\u0648\u0631\u0647 \u0644\u0627 \u064a\u0641\u0639\u0644 \u0634\u064a\u0626\u064b\u0627.\n\u064a\u0645\u0643\u0646\u0643 \u062a\u0646\u0632\u064a\u0644 \u0645\u0644\u0641\u0627\u062a \u0627\u0644\u0645\u0636\u064a\u0641\u0627\u062a \u0627\u0644\u0645\u062d\u062f\u062f\u0629 \u0645\u064f\u0633\u0628\u0642\u064b\u0627 \u0645\u0646 \u062f\u0627\u062e\u0644 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0644\u062f\u0645\u062c\u0647\u0627 \u0645\u0639 \u0645\u0644\u0641 \u0645\u0636\u064a\u0641 \u0627\u0644\u0646\u0638\u0627\u0645. \u0645\u0646 \u0627\u0644\u0645\u0645\u0643\u0646 \u0623\u064a\u0636\u064b\u0627 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0645\u0644\u0641\u0627\u062a\u0643 \u0627\u0644\u062e\u0627\u0635\u0629 \u0648\u0625\u0636\u0627\u0641\u0629 \u0645\u0636\u064a\u0641\u064a\u0646 \u0645\u0639\u064a\u0651\u0646\u064a\u0646 \u0625\u0644\u0649 \u0627\u0644\u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u0628\u064a\u0636\u0627\u0621 \u0648\u0627\u0644\u0633\u0648\u062f\u0627\u0621.\n\u062a\u0648\u062c\u062f \u062e\u064a\u0627\u0631\u0627\u062a \u0644\u062a\u0634\u063a\u064a\u0644 \u062e\u0627\u062f\u0645 \u0627\u0644\u0648\u064a\u0628 \u0627\u0644\u0645\u062d\u0644\u064a \u0644\u0644\u0631\u062f\u0651 \u0639\u0644\u0649 \u0623\u0633\u0645\u0627\u0621 \u0627\u0644\u0645\u0636\u064a\u0641 \u0627\u0644\u0645\u062d\u0638\u0648\u0631\u0629 \u0648\u062a\u0648\u062c\u064a\u0647 \u0627\u0644\u0637\u0644\u0628\u0627\u062a \u0625\u0644\u0649 \u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0640 IP \u0627\u0644\u0630\u064a \u062a\u062e\u062a\u0627\u0631\u0647 \u0623\u0646\u062a \u0628\u062f\u0644\u0627\u064b \u0645\u0646 \u0630\u0644\u0643.\n\n\u064a\u062a\u0637\u0644\u0628 \u0627\u0644\u0631\u0648\u062a: \u0646\u0639\u0645. \u064a\u0642\u0639 \u0645\u0644\u0641 \u0627\u0644\u0645\u0636\u064a\u0641 \u0641\u064a /system \u0648\u0647\u0648 \u0644\u0644\u0642\u0631\u0627\u0621\u0629 \u0641\u0642\u0637 \u0628\u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u0625\u0641\u062a\u0631\u0627\u0636\u064a.",
+          "summary": "AdAway \u0647\u0648 \u062d\u0627\u062c\u0628 \u0625\u0639\u0644\u0627\u0646\u0627\u062a \u0645\u0641\u062a\u0648\u062d \u0627\u0644\u0645\u0635\u062f\u0631 \u0644\u0646\u0638\u0627\u0645 \u062a\u0634\u063a\u064a\u0644 \u0622\u0646\u062f\u0631\u0648\u064a\u062f \u064a\u0639\u0645\u0644 \u0628\u0643\u064a\u0641\u064a\u0651\u0629 \u062a\u0639\u062f\u064a\u0644 \u0645\u0644\u0641 \u0627"
+        },
+        "ast": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "az": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "be": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "bg": {
+          "description": "\u0420\u0435\u043a\u043b\u0430\u043c\u0435\u043d \u0431\u043b\u043e\u043a\u0435\u0440, \u043a\u043e\u0439\u0442\u043e \u0438\u0437\u043f\u043e\u043b\u0437\u0432\u0430 \u0445\u043e\u0441\u0442 \u0444\u0430\u0439\u043b\u0430.\n\u0425\u043e\u0441\u0442 \u0444\u0430\u0439\u043b\u044a\u0442 \u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u0435\u043d \u0444\u0430\u0439\u043b, \u043a\u043e\u0439\u0442\u043e \u0441\u044a\u0434\u044a\u0440\u0436\u0430 \u0441\u043f\u0438\u0441\u044a\u043a \u0441\u044a\u0441 \u0441\u044a\u043e\u0442\u043d\u0430\u0441\u044f\u043d\u0438\u044f \u043c\u0435\u0436\u0434\u0443 \u0438\u043c\u0435\u043d\u0430 \u043d\u0430 \u0445\u043e\u0441\u0442\u043e\u0432\u0435 \u0438 IP \u0430\u0434\u0440\u0435\u0441\u0438.\n\u041a\u043e\u0433\u0430\u0442\u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0438\u0441\u043a\u0430 \u0440\u0435\u043a\u043b\u0430\u043c\u0430 \u043e\u0442 \u0445\u043e\u0441\u0442, \u043a\u043e\u0439\u0442\u043e \u0435 \u0432 \u0442\u043e\u0437\u0438 \u0444\u0430\u0439\u043b, \u0442\u0430\u0437\u0438 \u0437\u0430\u044f\u0432\u043a\u0430 \u0449\u0435 \u0431\u044a\u0434\u0435 \u043f\u0440\u0435\u043f\u0440\u0430\u0442\u0435\u043d\u0430 \u043a\u044a\u043c \u043b\u043e\u043a\u0430\u043b\u043d\u0438\u044f IP \u0430\u0434\u0440\u0435\u0441 127.0.0.1, \u043a\u043e\u0439\u0442\u043e \u043d\u0435 \u043f\u0440\u0430\u0432\u0438 \u043d\u0438\u0449\u043e.\n\u041c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0432\u0430\u043b\u044f\u0442\u0435 \u043f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u043d\u043e \u0434\u0435\u0444\u0438\u043d\u0438\u0440\u0430\u043d\u0438 \u0445\u043e\u0441\u0442 \u0444\u0430\u0439\u043b\u043e\u0432\u0435 \u043e\u0442 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u0442\u043e, \u0437\u0430 \u0434\u0430 \u0433\u0438 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u0438\u044f \u0445\u043e\u0441\u0442 \u0444\u0430\u0439\u043b. \u0421\u044a\u0449\u043e \u0442\u0430\u043a\u0430 \u0435 \u0432\u044a\u0437\u043c\u043e\u0436\u043d\u043e \u0434\u0430 \u0438\u0437\u043f\u043e\u043b\u0437\u0432\u0430\u0442\u0435 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u0438 \u0444\u0430\u0439\u043b\u043e\u0432\u0435 \u0438 \u0434\u0430 \u0434\u043e\u0431\u0430\u0432\u044f\u0442\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438 \u0445\u043e\u0441\u0442\u043e\u0432\u0435 \u0432 \u0431\u0435\u043b\u0438- \u0438 \u0447\u0435\u0440\u043d\u0438- \u0441\u043f\u0438\u0441\u044a\u0446\u0438.\n\u0418\u043c\u0430 \u043e\u043f\u0446\u0438\u0438 \u0437\u0430 \u0441\u0442\u0430\u0440\u0442\u0438\u0440\u0430\u043d\u0435 \u043d\u0430 \u043b\u043e\u043a\u0430\u043b\u0435\u043d \u0443\u0435\u0431 \u0441\u044a\u0440\u0432\u044a\u0440, \u043a\u043e\u0439\u0442\u043e \u0434\u0430 \u043e\u0442\u0433\u043e\u0432\u0430\u0440\u044f \u043d\u0430 \u0431\u043b\u043e\u043a\u0438\u0440\u0430\u043d\u0438 \u0438\u043c\u0435\u043d\u0430 \u043d\u0430 \u0445\u043e\u0441\u0442\u043e\u0432\u0435 \u0438 \u0434\u0430 \u043f\u0440\u0435\u043f\u0440\u0430\u0449\u0430 \u0437\u0430\u044f\u0432\u043a\u0438 \u043a\u044a\u043c IP \u0430\u0434\u0440\u0435\u0441\u0438 \u043f\u043e \u0412\u0430\u0448\u0435 \u0436\u0435\u043b\u0430\u043d\u0438\u0435.\n\n\u0418\u0437\u0438\u0441\u043a\u0432\u0430 \u043b\u0438 \u0441\u0435 \u0440\u0443\u0443\u0442 \u0434\u043e\u0441\u0442\u044a\u043f: \u0414\u0430. \u0425\u043e\u0441\u0442 \u0444\u0430\u0439\u043b\u044a\u0442 \u0441\u0435 \u043d\u0430\u043c\u0438\u0440\u0430 \u0432 \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440\u0438\u044f\u0442\u0430 /system, \u043a\u043e\u044f\u0442\u043e \u043f\u043e \u043f\u043e\u0434\u0440\u0430\u0437\u0431\u0438\u0440\u0430\u043d\u0435 \u0435 \u0441\u0430\u043c\u043e \u0437\u0430 \u0447\u0435\u0442\u0435\u043d\u0435.",
+          "summary": "AdAway \u0435 \u0440\u0435\u043a\u043b\u0430\u043c\u0435\u043d \u0431\u043b\u043e\u043a\u0435\u0440 \u0437\u0430 Android \u0441 \u043e\u0442\u0432\u043e\u0440\u0435\u043d \u043a\u043e\u0434, \u0438\u0437\u043f\u043e\u043b\u0437\u0432\u0430\u0449 \u0445\u043e\u0441\u0442 \u0444\u0430\u0439\u043b\u0430."
+        },
+        "bn": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "ca": {
+          "description": "Un bloquejador d'anuncis que utilitza el fitxer hosts.\nEl fitxer hosts \u00e9s un fitxer del sistema que cont\u00e9 una llista d'assignacions entre noms d'amfitrions i adreces IP.\nQuan una aplicaci\u00f3 sol\u00b7licita un anunci d'un amfitri\u00f3 en aquest fitxer, aquesta sol\u00b7licitud es redirigeix a la IP local 127.0.0.1, que no fa res.\nPodeu baixar fitxers d'amfitrions predefinits des de l'aplicaci\u00f3 per incorporar-los al fitxer hosts del sistema. Tamb\u00e9 \u00e9s possible utilitzar els vostres propis fitxers i afegir certs amfitrions a les llistes blanques i negres.\nHi ha opcions per executar un servidor web local per respondre als noms d'amfitri\u00f3 bloquejats i per dirigir sol\u00b7licituds a l'adre\u00e7a IP que trieu.\n\nRequereix acc\u00e9s arrel: s\u00ed. El fitxer hosts es troba a la partici\u00f3 /system que \u00e9s de nom\u00e9s lectura per defecte.",
+          "summary": "L'AdAway \u00e9s un bloquejador d'anuncis de codi obert per a Android que utilitza el"
+        },
+        "cs": {
+          "description": "Blokova\u010d reklam, kter\u00fd pou\u017e\u00edv\u00e1 soubor hosts\nSoubor hosts je soubor, kter\u00fd obsahuje seznam jmen host\u016f a IP adres\nKdy\u017e kter\u00e1koliv aplikace na\u010d\u00edt\u00e1 reklamu ze seznamu host\u016f, po\u017eadavek je automaticky p\u0159esm\u011brov\u00e1n na m\u00edstn\u00ed IP 127.0.0.1, kter\u00e1 neexistuje.\nM\u016f\u017eete si st\u00e1hnout p\u0159eddefinovan\u00fd seznam host\u016f p\u0159\u00edmo v t\u00e9to aplikaci a za\u010dlenit ho do soubor\u016f host\u016f. M\u016f\u017eete tak\u00e9 vyu\u017e\u00edt vlasnt\u00ed seznam a p\u0159idat konkr\u00e9tn\u00ed str\u00e1nky na b\u00edlou a \u010dernou listinu.\nJsou zde mo\u017enosti pusti lok\u00e1ln\u00ed webov\u00fd server aby blokoval a jm\u011b\u0159oval po\u017eadavky p\u0159\u00edmo na konkr\u00e9tn\u00ed IP adresy dle va\u0161eho v\u00fdb\u011bru\n\nPo\u017eadujeme ROOT: Ano. Soubor hostu je v syst\u00e9mu, kter\u00fd je mo\u017en\u00e1 v z\u00e1kladn\u00edm nastaven\u00ed bez ROOTu pouze \u010d\u00edst nikoliv v\u0161ak editovat.",
+          "summary": "AdAway je open source blokova\u010d reklam pro Android vyu\u017e\u00edvaj\u00edc\u00ed soubor hosts"
+        },
+        "da": {
+          "description": "En ad blocker som bruger hosts filen.\nHosts filen er en system fil som indeholder en liste af tilknytninger mellem hostnavne og IP-adresser.\nN\u00e5r en app foresp\u00f8rger en reklame fra en host i denne fil, vil denne foresp\u00f8rgsel blive sendt til den lokale IP 127.0.0.1, som ikke g\u00f8r noget.\nDu kan downloade pr\u00e6definerede hosts filer inde fra app'en, som kan indarbejdes i systemets hosts fil. Det er ogs\u00e5 muligt at benytte dine egne filer og tilf\u00f8je bestemte hosts til hvid- og sort-lister.\nDer er muligheder for at k\u00f8re en lokal webserver til at reagere p\u00e5 blokerede hostnavne, samt til at rette anmodninger til en selvvalgt IP-adresse istedet.\n\nKr\u00e6ver root: Ja. Hosts filen er placereret i /system hvilket er read-only som standard.",
+          "summary": "AdAway er en open source ad blocker til Android, som benytter hosts filen"
+        },
+        "de": {
+          "description": "Ein Werbeblocker, der die Hosts-Datei nutzt.\nDie Hosts-Datei ist eine Systemdatei, die eine Liste von Zuordnungen zwischen Host-Namen und IP-Adressen enth\u00e4lt.\nWenn eine App Werbung von einem Host aus dieser Datei anfordert, wird diese Anfrage an die lokale IP 127.0.0.1 umgeleitet, wodurch nichts passiert.\nSie k\u00f6nnen vordefinierte Hosts-Dateien direkt in der App herunterladen und in die Hosts-Datei des Systems integrieren. Es ist zudem m\u00f6glich, Ihre eigenen Dateien zu benutzen und bestimmte Hosts White- und Blacklisten zuzuordnen.\nEs gibt die M\u00f6glichkeit, einen lokalen Webserver zu betreiben, der auf blockierte Host-Namen reagiert und Anfragen an sie an eine selbstgew\u00e4hlte IP-Adresse weiterleitet.\n\nBen\u00f6tigt Root: Ja. Die Hosts-Datei liegt unter /system, auf welches normalerweise lediglich lesend zugegriffen werden kann.",
+          "summary": "Werbung blockieren\n"
+        },
+        "el": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "en": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.\n",
+          "featureGraphic": "featureGraphic.png",
+          "icon": "icon.png",
+          "phoneScreenshots": [
+            "screenshot1.png",
+            "screenshot2.png",
+            "screenshot3.png",
+            "screenshot4.png",
+            "screenshot5.png"
+          ],
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "en-US": {
+          "summary": "Summary:Block advertisements\n"
+        },
+        "eo": {
+          "description": "Anuncblokisto hostsdosieruzanto.\nHostsdosiero estas sistemdosieron ke enhavas bildigarojn inter hostnomoj kaj IP-adresoj.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway estas malferman fonton anuncblokisto por Android hostsdosieruzanto."
+        },
+        "es": {
+          "description": "Una aplicaci\u00f3n para bloquear anuncios que utiliza el archivo hosts.\nEl archivo hosts es un archivo del sistema que contiene una lista de conexiones entre nombres de dominio y direcciones IP.\nCuando una aplicaci\u00f3n solicita un anuncio procedente de un nombre de dominio dentro de ese archivo, esta solicitud se redirige a la direcci\u00f3n IP local 127.0.0.1, que no lleva ninguna acci\u00f3n a cabo.\nPuede descargar archivos hosts desde la aplicaci\u00f3n para incorporarlos en el archivo hosts de su equipo. Puede utilizar tambi\u00e9n sus propios archivos y a\u00f1adir determinados dominios a la lista de aprobaci\u00f3n o a la lista negra.\nO tambi\u00e9n existe la posibilidad de hacer que un servidor web local responda a los nombres de dominio bloqueados y que presente solicitudes a direcciones IP de tu elecci\u00f3n.\n\nSe requieren permisos de root: S\u00ed. El archivo hosts se encuentra en la carpeta /system y est\u00e1 en estado de solo lectura por defecto.",
+          "summary": "AdAway es un bloqueador de anuncios de c\u00f3digo abierto para Android que usa un ar"
+        },
+        "es-Rmx": {
+          "description": "Un bloqueador de anuncios que usa el archivo hosts.\nEl archivo hosts es un archivo del sistema que contiene una lista de mapeos entre nombres de host y direcciones IP.\nCuando una app solicita un anuncio de un host que est\u00e9 en ese archivo, se redirige a la IP local 127.0.0.1, que no hace nada.\nPuedes descargar archivos hosts predefinidos desde la app para incorporarlos al de tu sistema. Tambi\u00e9n es posible usar tus propios archivos y a\u00f1adir ciertos hosts a las listas blancas y negras.\nHay, igualmente, opciones para iniciar un servidor web local para responder a los hosts bloqueados, y para dirigir pedidos a la direcci\u00f3n IP que desees.\n\nRequiere root: s\u00ed. El archivo hosts est\u00e1 localizado en directorio /system, que por defecto es de s\u00f3lo-lectura.",
+          "summary": "AdAway es un bloqueador de anuncios de c\u00f3digo abierto para Android que usa el ar"
+        },
+        "et": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "eu": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "fa": {
+          "description": "\u0641\u0627\u06cc\u0644 hosts \u062a\u0648\u0633\u0637 \u06cc\u06a9 \u0628\u0631\u0646\u0627\u0645\u0647 \u0645\u0633\u062f\u0648\u062f \u06a9\u0646\u0646\u062f\u0647 \u062a\u0628\u0644\u06cc\u063a\u0627\u062a \u062f\u0631 \u062d\u0627\u0644 \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u0627\u0633\u062a\n\u0641\u0627\u06cc\u0644 hosts \u06cc\u06a9 \u0641\u0627\u06cc\u0644 \u0633\u06cc\u0633\u062a\u0645\u06cc \u0627\u0633\u062a \u06a9\u0647 \u0634\u0627\u0645\u0644 \u0644\u06cc\u0633\u062a\u06cc \u0627\u0632 \u0646\u0627\u0645 host \u0648 IP \u0645\u062a\u0646\u0627\u0638\u0631 \u0622\u0646 \u0627\u0633\u062a.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "\u0628\u0631\u0646\u0627\u0645\u0647 AdAway \u06cc\u06a9 \u0628\u0631\u0646\u0627\u0645\u0647 \u0645\u062a\u0646 \u0628\u0627\u0632 \u0628\u0631\u0627\u06cc \u0645\u0633\u062f\u0648\u062f \u06a9\u0631\u062f\u0646 \u062a\u0628\u0644\u06cc\u063a\u0627\u062a \u062f\u0631 \u0627\u0646\u062f\u0631\u0648\u06cc\u062f \u0645\u06cc\u0628\u0627\u0634\u062f"
+        },
+        "fi": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "fil": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "fr": {
+          "description": "Un bloqueur de publicit\u00e9 qui utilise le fichier hosts.\nLe fichier hosts est un fichier syst\u00e8me qui contient une liste de correspondances entre noms d\u2019h\u00f4tes et adresses IP.\nQuand une appli demande une publicit\u00e9 \u00e0 un h\u00f4te se trouvant dans ce fichier, cette requ\u00eate est redirig\u00e9e vers l\u2019adresse IP locale\u00a0127.0.0.1, ce qui ne retourne rien.\nVous pouvez t\u00e9l\u00e9charger des fichiers hosts pr\u00e9d\u00e9finis \u00e0 partir de l\u2019appli pour les incorporer au fichier hosts de votre syst\u00e8me. Il est aussi possible d\u2019utiliser vos propres fichiers et de mettre certains h\u00f4tes en liste blanche ou noire.\nDes options permettent d\u2019ex\u00e9cuter un serveur Web local pour r\u00e9pondre aux noms d\u2019h\u00f4tes bloqu\u00e9s et pour plut\u00f4t rediriger les requ\u00eates vers l\u2019adresse IP de votre choix.\n\nL\u2019acc\u00e8s racine est exig\u00e9. Le fichier hosts est situ\u00e9 dans /system qui est en lecture seule par d\u00e9faut.",
+          "summary": "R\u00e9sum\u00e9 : Bloquer les annonces\n"
+        },
+        "gl": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "hi": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "hr": {
+          "description": "Blokator oglasa koji koristi datoteku poslu\u017eitelja.\nDatoteka poslu\u017eitelja je datoteka sustava koja sadr\u017ei popis mapiranja izme\u0111u naziva poslu\u017eitelja i IP adresa.\nKada aplikacija zahtjeva oglas s poslu\u017eitelja koji je sadr\u017ean u datoteci poslu\u017eitelja, taj zahtjev je preusmjeren na lokalnu adresu 127.0.0.1, koja ne \u010dini ni\u0161ta.\nMo\u017eete preuzeti preddefinirane datoteke poslu\u017eitelja sadr\u017eane u aplikaciji kako bi ih umetnuli u datoteku poslu\u017eitelja sustava. Mogu\u0107e je koristiti vlastite datoteke i dodavanje odre\u0111enih poslu\u017eitelja na popis blokiranih/neblokiranih.\nPostoje mogu\u0107nosti pokretanja lokalnog web poslu\u017eitelja kao odgovor na blokirane nazive poslu\u017eitelja i izravan zahtjev na va\u0161e odabrane IP adrese.\n\nZahtijeva root (korijenski pristup): Da. Datoteka poslu\u017eitelja koja se nalazi u /system ima po zadanome samo dozvole \u010ditanja.",
+          "summary": "AdAway je blokator oglasa otvorenog k\u00f4da za Android koji koristi datoteku poslu\u017e"
+        },
+        "hu": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "Az AdAway egy ny\u00edlt forr\u00e1sk\u00f3d\u00fa hirdet\u00e9sblokkol\u00f3 program Android-ra (a host f\u00e1jlt"
+        },
+        "id": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "is": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "it": {
+          "description": "Un'applicazione open source che usa il file hosts.\nIl file hosts \u00e8 un file di sistema che contiene una lista di relazioni tra nomi host e indirizzi IP.\nQuando un'app richiama un annuncio pubblicitario da un host presente in quel file, la richiesta viene rediretta all'indirizzo IP locale 127.0.0.1, non traducendosi in alcuna azione.\nPuoi scaricare dei file hosts precompilati direttamente dall'app, per incorporarli nel file hosts di sistema. \u00c8 anche possibile usare i propri file hosts e aggiungere alcuni hosts a whitelist e blacklist.\nCi sono opzioni che consentono di avviare un web server locale per rispondere ai nomi di host bloccati e per inoltrare le relative richieste all'indirizzo IP di tua preferenza.\n\nRichiede root: S\u00ec. Il file hosts \u00e8 situato in /system che di default \u00e8 di sola lettura.",
+          "summary": "AdAway \u00e8 un'applicazione open source progettata per bloccare le pubblicit\u00e0 su An"
+        },
+        "iw": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "ja": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "km": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "ko": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "ku": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "lt": {
+          "description": "Reklam\u0173 blokuotojas, kuris naudoja hosts fail\u0105.\nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway yra atviro kodo reklam\u0173 blokuotojas Android operacinei sistemai, kuris na"
+        },
+        "ml": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "my": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "nb-Rno": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "ne": {
+          "description": "\u090f\u0915 \u0935\u093f\u091c\u094d\u091e\u093e\u092a\u0928 \u0905\u0935\u0930\u094b\u0927\u0915 \u0939\u094b\u0938\u094d\u091f \u092b\u093e\u0907\u0932 \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u094d\u0926\u091b\u0964\nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\n\u091c\u092c \u090f\u0915 \u092b\u093e\u0907\u0932\u0932\u0947 \u0906\u0935\u0947\u0926\u0928 \u0939\u094b\u0938\u094d\u091f\u092c\u093e\u091f \u0935\u093f\u091c\u094d\u091e\u093e\u092a\u0928 \u0905\u0928\u0941\u0930\u094b\u0927 \u0917\u0930\u094d\u0926\u091b, \u092f\u094b \u0905\u0928\u0941\u0930\u094b\u0927 \u0938\u094d\u0925\u093e\u0928\u0940\u092f IP 127.0.0.1 \u092e\u093e \u092a\u0941\u0928\u0903 \u0928\u093f\u0930\u094d\u0926\u0947\u0936\u093f\u0924 \u0917\u0930\u093f\u0928\u094d\u0915\u094d\u0937, \u091c\u094b \u0915\u0947\u0939\u093f \u0917\u0930\u094d\u0926\u0948\u0928\u0964\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "nl": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "no": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "pa": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "pl": {
+          "description": "Blokowanie reklam korzystaj\u0105ce z pliku hosts.\nPlik hosts jest plikiem systemowym, kt\u00f3ry zawiera list\u0119 odwzorowa\u0144 mi\u0119dzy nazwami host\u00f3w i adresami IP.\nGdy aplikacja \u017c\u0105da reklamy od hosta w tym pliku, \u017c\u0105danie to jest przekierowywane do lokalnego adresu IP 127.0.0.1, kt\u00f3ry nie robi nic.\nMo\u017cesz pobra\u0107 predefiniowane pliki host\u00f3w z poziomu aplikacji, aby w\u0142\u0105czy\u0107 je do pliku hosta systemu. Mo\u017cliwe jest r\u00f3wnie\u017c u\u017cycie w\u0142asnych plik\u00f3w i dodanie okre\u015blonych host\u00f3w do bia\u0142ych i czarnych list.\nIstniej\u0105 opcje uruchamiania lokalnego serwera WWW w celu odpowiedzi na zablokowane nazwy host\u00f3w i kierowania \u017c\u0105da\u0144 na wybrany adres IP.\n\nWymaga root: Tak. Plik hosts znajduje si\u0119 w /system, kt\u00f3ry jest domy\u015blnie tylko do odczytu.",
+          "summary": "AdAway to blokuj\u0105ca reklamy typu open source aplikacja dla systemu Android, korz"
+        },
+        "pt": {
+          "description": "Um bloqueador de an\u00fancios que utiliza o ficheiro hosts.\nO ficheiro hosts \u00e9 um ficheiro do sistema que cont\u00e9m uma lista de mapeamentos entre os nomes de hospedeiro e os endere\u00e7os de IP.\nQuando uma aplica\u00e7\u00e3o solicita um an\u00fancio a partir de um hospedeiro nesse ficheiro, este pedido \u00e9 redirecionado para o IP local 127.0.0.1, que n\u00e3o faz nada.\nPode transferir ficheiros hosts predefinidos a partir da aplica\u00e7\u00e3o para incorpor\u00e1-los no ficheiro hosts do sistema. Tamb\u00e9m \u00e9 poss\u00edvel utilizar os seus pr\u00f3prios ficheiros e adicionar certos hospedeiros \u00e0s listas branca e negra.\nExistem op\u00e7\u00f5es para executar um servidor da Web local que responda aos nomes de hospedeiro bloqueados e que direcione os pedidos para os endere\u00e7os de IP que escolher.\n\nRequer root: Sim. O ficheiro hosts est\u00e1 localizado em /system, que \u00e9 s\u00f3 de leitura por predefini\u00e7\u00e3o.",
+          "summary": "O AdAway \u00e9 um bloqueador de an\u00fancios de c\u00f3digo aberto para Android que utiliza o"
+        },
+        "pt-Rbr": {
+          "description": "Um bloqueador de an\u00fancios que usa o arquivo hosts\nO arquivo de hospedagem \u00e9 um arquivo de sistema que cont\u00e9m uma lista de mapeamentos entre nomes de hospedagem e endere\u00e7os de IP.\nQuando um app solicita um an\u00fancio de um host naquele arquivo, essa solicita\u00e7\u00e3o \u00e9 redirecionada para o IP local 127.0.0.1, que n\u00e3o faz nada.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nNescessita de Root: Sim. O arquivo hosts \u00e9 localizado em /system, que \u00e9 'somente leitura' por padr\u00e3o.",
+          "summary": "AdAway \u00e9 um bloqueador de an\u00fancios de c\u00f3digo aberto para Android, que utiliza o "
+        },
+        "ro": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "ru": {
+          "description": "\u0411\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0449\u0438\u043a \u0440\u0435\u043a\u043b\u0430\u043c\u044b, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0449\u0438\u0439 hosts \u0444\u0430\u0439\u043b.\n\u0424\u0430\u0439\u043b hosts \u2014 \u044d\u0442\u043e \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u0444\u0430\u0439\u043b, \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u0439 \u0441\u043f\u0438\u0441\u043e\u043a \u0441\u043e\u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0439 \u043c\u0435\u0436\u0434\u0443 \u0438\u043c\u0435\u043d\u0430\u043c\u0438 \u0445\u043e\u0441\u0442\u043e\u0432 \u0438 IP-\u0430\u0434\u0440\u0435\u0441\u0430\u043c\u0438.\n\u041a\u043e\u0433\u0434\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043f\u044b\u0442\u0430\u0435\u0442\u0441\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u0438\u0442\u044c \u0440\u0435\u043a\u043b\u0430\u043c\u0443 \u0441 \u0445\u043e\u0441\u0442\u0430, \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0435\u0433\u043e\u0441\u044f \u0432 \u044d\u0442\u043e\u043c \u0444\u0430\u0439\u043b\u0435, \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u0430 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u044b\u0439 IP 127.0.0.1, \u0441 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044f.\n\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u043f\u0440\u0435\u0434\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044b\u0435 \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438 \u0441\u043f\u0438\u0441\u043a\u0438 \u0445\u043e\u0441\u0442\u043e\u0432, \u0447\u0442\u043e\u0431\u044b \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0438\u0445 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0439 \u0444\u0430\u0439\u043b hosts. \u0412\u044b \u0442\u0430\u043a\u0436\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0432\u0430\u0448\u0438 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0441\u043f\u0438\u0441\u043a\u0438 \u0438 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0451\u043d\u043d\u044b\u0435 \u0430\u0434\u0440\u0435\u0441\u0430 \u0432 \u0431\u0435\u043b\u044b\u0439 \u0438\u043b\u0438 \u0447\u0451\u0440\u043d\u044b\u0439 \u0441\u043f\u0438\u0441\u043e\u043a.\n\u0418\u043c\u0435\u0435\u0442\u0441\u044f \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0437\u0430\u043f\u0443\u0441\u043a\u0430 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0435\u0431-\u0441\u0435\u0440\u0432\u0435\u0440\u0430 \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432 \u043a \u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c \u0430\u0434\u0440\u0435\u0441\u0430\u043c \u043d\u0430 \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0439 \u0432\u0430\u043c\u0438 IP-\u0430\u0434\u0440\u0435\u0441.\n\n\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f root: \u0414\u0430. \u0424\u0430\u0439\u043b hosts \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0440\u0430\u0437\u0434\u0435\u043b\u0435 /system, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u0447\u0442\u0435\u043d\u0438\u044f.",
+          "summary": "AdAway \u2014 \u044d\u0442\u043e \u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0449\u0438\u043a \u0440\u0435\u043a\u043b\u0430\u043c\u044b \u0441 \u043e\u0442\u043a\u0440\u044b\u0442\u044b\u043c \u0438\u0441\u0445\u043e\u0434\u043d\u044b\u043c \u043a\u043e\u0434\u043e\u043c \u0434\u043b\u044f Android, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443"
+        },
+        "si": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "sk": {
+          "description": "Ad blocker, ktor\u00fd vyu\u017e\u00edva hosts file.\nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "sl": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "sr": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "sv": {
+          "description": "En annonsblockerare som anv\u00e4nder v\u00e4rdfilen.\nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nKr\u00e4ver root: Ja. V\u00e4rdfilen finns i /system som \u00e4r skrivskyddad som standard.",
+          "summary": "AdAway \u00e4r en annonsblockerare (\u00f6ppen k\u00e4llkod) f\u00f6r Android som anv\u00e4nder v\u00e4rdfilen"
+        },
+        "ta": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "th": {
+          "description": "\u0e1a\u0e25\u0e47\u0e2d\u0e04\u0e42\u0e06\u0e29\u0e13\u0e32\u0e42\u0e14\u0e22\u0e43\u0e0a\u0e49\u0e44\u0e1f\u0e25\u0e4c\u0e42\u0e2e\u0e2a\u0e15\u0e4c\n\u0e44\u0e1f\u0e25\u0e4c\u0e42\u0e2e\u0e2a\u0e15\u0e4c\u0e04\u0e37\u0e2d\u0e44\u0e1f\u0e25\u0e4c\u0e23\u0e30\u0e1a\u0e1a\u0e17\u0e35\u0e48\u0e40\u0e0a\u0e37\u0e48\u0e2d\u0e21\u0e23\u0e30\u0e2b\u0e27\u0e48\u0e32\u0e07\u0e0a\u0e37\u0e48\u0e2d\u0e42\u0e2e\u0e2a\u0e15\u0e4c\u0e41\u0e25\u0e30\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48 IP\n\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e41\u0e2d\u0e1e\u0e2f\u0e23\u0e49\u0e2d\u0e07\u0e02\u0e2d\u0e42\u0e06\u0e29\u0e13\u0e32\u0e08\u0e32\u0e01\u0e42\u0e2e\u0e2a\u0e15\u0e4c\u0e43\u0e19\u0e44\u0e1f\u0e25\u0e4c\u0e19\u0e31\u0e49\u0e19\u0e04\u0e33\u0e02\u0e2d\u0e19\u0e35\u0e49\u0e08\u0e30\u0e16\u0e39\u0e01\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e40\u0e2a\u0e49\u0e19\u0e17\u0e32\u0e07\u0e44\u0e1b\u0e22\u0e31\u0e07 IP \u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e04\u0e37\u0e2d 127.0.0.1 \u0e0b\u0e36\u0e48\u0e07\u0e44\u0e21\u0e48\u0e21\u0e35\u0e2d\u0e30\u0e44\u0e23\n\u0e04\u0e38\u0e13\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e14\u0e32\u0e27\u0e19\u0e4c\u0e42\u0e2b\u0e25\u0e14\u0e44\u0e1f\u0e25\u0e4c\u0e42\u0e2e\u0e2a\u0e15\u0e4c\u0e17\u0e35\u0e48\u0e01\u0e33\u0e2b\u0e19\u0e14\u0e44\u0e27\u0e49\u0e25\u0e48\u0e27\u0e07\u0e2b\u0e19\u0e49\u0e32\u0e08\u0e32\u0e01\u0e20\u0e32\u0e22\u0e43\u0e19\u0e41\u0e2d\u0e1e\u0e2f\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e23\u0e27\u0e21\u0e44\u0e1f\u0e25\u0e4c\u0e42\u0e2e\u0e2a\u0e15\u0e4c\u0e44\u0e27\u0e49\u0e43\u0e19\u0e44\u0e1f\u0e25\u0e4c\u0e42\u0e2e\u0e2a\u0e15\u0e4c\u0e02\u0e2d\u0e07\u0e23\u0e30\u0e1a\u0e1a \u0e19\u0e2d\u0e01\u0e08\u0e32\u0e01\u0e19\u0e35\u0e49\u0e22\u0e31\u0e07\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e43\u0e0a\u0e49\u0e44\u0e1f\u0e25\u0e4c\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e40\u0e2d\u0e07\u0e41\u0e25\u0e30\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e42\u0e2e\u0e2a\u0e15\u0e4c\u0e1a\u0e32\u0e07\u0e41\u0e2b\u0e48\u0e07\u0e25\u0e07\u0e43\u0e19\u0e1a\u0e31\u0e0d\u0e0a\u0e35\u0e14\u0e33\n\u0e21\u0e35\u0e15\u0e31\u0e27\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e43\u0e19\u0e01\u0e32\u0e23\u0e40\u0e23\u0e35\u0e22\u0e01\u0e43\u0e0a\u0e49\u0e40\u0e27\u0e47\u0e1a\u0e40\u0e0b\u0e34\u0e23\u0e4c\u0e1f\u0e40\u0e27\u0e2d\u0e23\u0e4c\u0e20\u0e32\u0e22\u0e43\u0e19\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e15\u0e2d\u0e1a\u0e2a\u0e19\u0e2d\u0e07\u0e15\u0e48\u0e2d\u0e0a\u0e37\u0e48\u0e2d\u0e42\u0e2e\u0e2a\u0e15\u0e4c\u0e17\u0e35\u0e48\u0e16\u0e39\u0e01\u0e1a\u0e25\u0e47\u0e2d\u0e04\u0e41\u0e25\u0e30\u0e2a\u0e48\u0e07\u0e04\u0e33\u0e02\u0e2d\u0e44\u0e1b\u0e22\u0e31\u0e07\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48 IP \u0e17\u0e35\u0e48\u0e04\u0e38\u0e13\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e41\u0e17\u0e19\n\n\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e23\u0e39\u0e17: \u0e43\u0e0a\u0e48\u0e44\u0e1f\u0e25\u0e4c\u0e2e\u0e42\u0e2a\u0e15\u0e4c\u0e08\u0e30\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19 /system \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e1b\u0e47\u0e19\u0e41\u0e1a\u0e1a\u0e2d\u0e48\u0e32\u0e19\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e40\u0e14\u0e35\u0e22\u0e27\u0e42\u0e14\u0e22\u0e04\u0e48\u0e32\u0e40\u0e23\u0e34\u0e48\u0e21\u0e15\u0e49\u0e19",
+          "summary": "AdAway \u0e40\u0e1b\u0e47\u0e19\u0e42\u0e1b\u0e23\u0e41\u0e01\u0e23\u0e21\u0e1a\u0e25\u0e47\u0e2d\u0e01\u0e42\u0e06\u0e29\u0e13\u0e32\u0e42\u0e2d\u0e40\u0e1e\u0e19\u0e0b\u0e2d\u0e23\u0e4c\u0e2a\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a Android \u0e42\u0e14\u0e22\u0e41\u0e01\u0e49\u0e44\u0e02\u0e44\u0e1f\u0e25\u0e4c\u0e42\u0e2e\u0e2a\u0e15\u0e4c"
+        },
+        "tl": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "tr": {
+          "description": "Hosts dosyas\u0131n\u0131 kullanan bir reklam engelleyici.\nHosts dosyas\u0131, host adlar\u0131 ve IP adresleri aras\u0131ndaki e\u015flemelerin listesini i\u00e7eren bir sistem dosyas\u0131d\u0131r.\nBir uygulama bu dosyadaki bir host'dan bir reklam istedi\u011finde, bu istek hi\u00e7bir \u015fey yapmadan yerel IP 127.0.0.1'e y\u00f6nlendirilir.\n\u00d6nceden tan\u0131mlanm\u0131\u015f host dosyalar\u0131n\u0131, uygulaman\u0131n i\u00e7erisinden sistem ana dosyalar\u0131na dahil etmek i\u00e7in uygulama i\u00e7inden indirebilirsiniz. Kendi dosyalar\u0131n\u0131z\u0131 kullanmak ve beyaz ve kara listelere belirli host eklemek de m\u00fcmk\u00fcnd\u00fcr.\nEngellenen host adlar\u0131na yan\u0131t vermek ve bunun yerine tercih etti\u011finiz IP adresine istekleri y\u00f6nlendirmek i\u00e7in yerel bir web sunucusunu \u00e7al\u0131\u015ft\u0131rma se\u00e7enekleri vard\u0131r.\n\nK\u00f6k eri\u015fimi gerektirir: Evet. Hosts dosyas\u0131 varsay\u0131lan olarak salt okunur olan /system de bulunur.",
+          "summary": "AdAway, host dosyas\u0131n\u0131 kullanarak Android i\u00e7in a\u00e7\u0131k kaynakl\u0131 bir reklam engelley"
+        },
+        "uk": {
+          "description": "\u0411\u043b\u043e\u043a\u0443\u0432\u0430\u043b\u044c\u043d\u0438\u043a \u0440\u0435\u043a\u043b\u0430\u043c\u0438, \u044f\u043a\u0438\u0439 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0454 \u0444\u0430\u0439\u043b hosts.\n\u0424\u0430\u0439\u043b hosts \u2013 \u0446\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u0438\u0439 \u0444\u0430\u0439\u043b, \u0432 \u044f\u043a\u043e\u043c\u0443 \u0437\u0431\u0435\u0440\u0456\u0433\u0430\u044e\u0442\u044c\u0441\u044f \u0456\u043c\u0435\u043d\u0430 \u0445\u043e\u0441\u0442\u0456\u0432 (\u0443 \u0432\u0438\u0433\u043b\u044f\u0434\u0456 \u0434\u043e\u043c\u0435\u043d\u043d\u0438\u0445 \u0456\u043c\u0435\u043d) \u0442\u0430 \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u043d\u0456 \u0457\u043c IP-\u0430\u0434\u0440\u0435\u0441\u0438.\n\u041a\u043e\u043b\u0438 \u0434\u043e\u0434\u0430\u0442\u043e\u043a \u0440\u043e\u0431\u0438\u0442\u044c \u0437\u0430\u043f\u0438\u0442 \u043d\u0430 \u0440\u0435\u043a\u043b\u0430\u043c\u0443 \u0434\u043e \u0444\u0430\u0439\u043b\u0443 hosts, \u0446\u0435\u0439 \u0437\u0430\u043f\u0438\u0442 \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u044f\u0432\u043b\u044f\u0454\u0442\u044c\u0441\u044f \u043d\u0430 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u0443 IP-\u0430\u0434\u0440\u0435\u0441\u0443 127.0.0.1, \u044f\u043a\u0430 \u043d\u0456\u0447\u043e\u0433\u043e \u043d\u0435 \u0440\u043e\u0431\u0438\u0442\u044c.\n\u0423 \u0446\u044c\u043e\u043c\u0443 \u0434\u043e\u0434\u0430\u0442\u043a\u0443 \u043c\u043e\u0436\u043d\u0430 \u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0438\u0442\u0438 \u0433\u043e\u0442\u043e\u0432\u0456 \u0444\u0430\u0439\u043b\u0438 \u0437 \u0445\u043e\u0441\u0442\u0430\u043c\u0438, \u0449\u043e\u0431 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0438 \u0457\u0445 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u0438\u0439 \u0444\u0430\u0439\u043b hosts. \u0422\u0430\u043a\u043e\u0436 \u043c\u043e\u0436\u043b\u0438\u0432\u043e \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0432\u0430\u0442\u0438 \u0432\u043b\u0430\u0441\u043d\u0456 \u0444\u0430\u0439\u043b\u0438 \u0442\u0430 \u0434\u043e\u0434\u0430\u0432\u0430\u0442\u0438 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0456 \u0445\u043e\u0441\u0442\u0438 \u0434\u043e \u0431\u0456\u043b\u043e\u0433\u043e \u0430\u0431\u043e \u0447\u043e\u0440\u043d\u043e\u0433\u043e \u0441\u043f\u0438\u0441\u043a\u0456\u0432.\n\u041c\u043e\u0436\u043b\u0438\u0432\u0438\u0439 \u0432\u0430\u0440\u0456\u0430\u043d\u0442 \u0437\u0430\u043f\u0443\u0441\u043a\u0443 \u043b\u043e\u043a\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0435\u0431-\u0441\u0435\u0440\u0432\u0435\u0440\u0430, \u0449\u043e\u0431 \u0432\u0456\u043d \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u0430\u0432 \u043d\u0430 \u0437\u0430\u0431\u043b\u043e\u043a\u043e\u0432\u0430\u043d\u0456 \u0456\u043c\u0435\u043d\u0430 \u0445\u043e\u0441\u0442\u0456\u0432 \u0442\u0430 \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u044f\u0432 \u0437\u0430\u043f\u0438\u0442\u0438 \u0434\u043e IP-\u0430\u0434\u0440\u0435\u0441 \u043d\u0430 \u0432\u0430\u0448 \u0432\u0438\u0431\u0456\u0440.\n\n\u041f\u043e\u0442\u0440\u0435\u0431\u0443\u0454 root: \u0442\u0430\u043a. \u0424\u0430\u0439\u043b hosts \u0440\u043e\u0437\u0442\u0430\u0448\u043e\u0432\u0430\u043d\u0438\u0439 \u0443 \u043f\u0430\u043f\u0446\u0456 /system, \u044f\u043a\u0430 \u0443\u0441\u0442\u0430\u043b\u0435\u043d\u043e \u0454 \u0442\u0456\u043b\u044c\u043a\u0438 \u0434\u043b\u044f \u0447\u0438\u0442\u0430\u043d\u043d\u044f.",
+          "summary": "AdAway \u2013 \u0446\u0435 \u0431\u043b\u043e\u043a\u0443\u0432\u0430\u043b\u044c\u043d\u0438\u043a \u0440\u0435\u043a\u043b\u0430\u043c\u0438 \u0434\u043b\u044f Android \u0437 \u0432\u0456\u0434\u043a\u0440\u0438\u0442\u0438\u043c \u0432\u0438\u0445\u0456\u0434\u043d\u0438\u043c \u043a\u043e\u0434\u043e\u043c, \u044f\u043a\u0438\u0439 \u0432\u0438"
+        },
+        "ur": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "uz": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "vi": {
+          "description": "An ad blocker that uses the hosts file. \nThe hosts file is a system file that contains a list of mappings between host names and IP addresses.\nWhen an app requests an ad from a host in that file, this request is redirected to the local IP 127.0.0.1, which does nothing.\nYou can download predefined hosts files from within the app to incorporate them into the system's hosts file. It is also possible to use your own files and to add certain hosts to white- and black-lists.\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\nRequires root: Yes. The hosts file is located in /system which is read-only by default.",
+          "summary": "AdAway is an open source ad blocker for Android using the hosts file."
+        },
+        "zh": {
+          "description": "\u4e00\u6b3e\u4f7f\u7528hosts\u6587\u4ef6\u7684\u5e7f\u544a\u62e6\u622a\u5668\u3002\nhosts\u6587\u4ef6\u662f\u4e00\u4e2a\u7cfb\u7edf\u6587\u4ef6\uff0c\u5176\u4e2d\u5305\u542b\u4e3b\u673a\u540d\u548cIP\u5730\u5740\u4e4b\u95f4\u7684\u6620\u5c04\u5217\u8868\u3002\n\u5f53\u4e00\u4e2a\u5e94\u7528\u5411\u8be5\u6587\u4ef6\u4e2d\u7684\u4e3b\u673a\u8bf7\u6c42\u5e7f\u544a\u65f6\uff0c\u8bf7\u6c42\u4f1a\u88ab\u91cd\u5b9a\u5411\u81f3\u672c\u5730IP 127.0.0.1\uff0c\u4ece\u800c\u5931\u6548\u3002\n\u5728\u5e94\u7528\u4e2d\u4f60\u53ef\u4ee5\u4e0b\u8f7d\u9884\u5b9a\u4e49\u7684hosts\u6587\u4ef6\uff0c\u5c06\u5b83\u4eec\u5408\u5e76\u8fdb\u7cfb\u7edf\u7684hosts\u6587\u4ef6\u3002\u4f60\u4e5f\u53ef\u4ee5\u4f7f\u7528\u81ea\u5df1\u7684\u6587\u4ef6\uff0c\u5c06\u7279\u5b9a\u4e3b\u673a\u6dfb\u52a0\u5230\u767d\u540d\u5355/\u9ed1\u540d\u5355\u4e2d\u3002\n\u5bf9\u4e8e\u88ab\u62e6\u622a\u7684\u4e3b\u673a\u540d\uff0c\u53ef\u4ee5\u9009\u62e9\u8fd0\u884c\u4e00\u4e2a\u672c\u5730\u7684\u7f51\u7edc\u670d\u52a1\u5668\u6765\u54cd\u5e94\u8bf7\u6c42\uff0c\u6216\u8005\u5c06\u8bf7\u6c42\u5b9a\u5411\u5230\u6307\u5b9a\u7684IP\u5730\u5740\u3002\n\n\u9700\u8981root\u6743\u9650\uff1a\u221a\u3002hosts\u6587\u4ef6\u4f4d\u4e8e/system\uff0c\u9ed8\u8ba4\u4e3a\u53ea\u8bfb\u3002",
+          "summary": "AdAway\u662f\u4e00\u6b3e\u4f7f\u7528hosts\u6587\u4ef6\u7684\u5f00\u6e90Android\u5e7f\u544a\u62e6\u622a\u5668\uff0c"
+        },
+        "zh-CN": {
+          "summary": "\u6458\u8981\uff1a\u963b\u6b62\u5e7f\u544a\n"
+        },
+        "zh-Rtw": {
+          "description": "\u4f7f\u7528 hosts \u6a94\u6848\u7684\u5ee3\u544a\u963b\u64cb\u7a0b\u5f0f\u3002\nhosts \u6a94\u6848\u662f\u500b\u5305\u542b\u5728 host \u53ca IP \u4f4d\u5740\u5c0d\u61c9\u6e05\u55ae\u7684\u7cfb\u7d71\u6a94\u6848\u3002\n\u7576 app \u8981\u6c42\u5f9e\u6e05\u55ae\u4e2d\u7684 host \u53d6\u5f97\u5ee3\u544a\u6642\uff0c\u6b64\u8981\u6c42\u5c07\u6703\u88ab\u8f49\u5740\u81f3\u672c\u6a5f 127.0.0.1 \u4e26\u4e0d\u505a\u4efb\u4f55\u4e8b\u3002\n\u60a8\u53ef\u4ee5\u5728\u61c9\u7528\u7a0b\u5f0f\u4e2d\u4e0b\u8f09\u9810\u5148\u5b9a\u7fa9\u7684 hosts \u6a94\u6848\uff0c\u4ee5\u5c07\u5b83\u5011\u5408\u4f75\u5230\u7cfb\u7d71\u7684 hosts \u6a94\u6848\u4e2d\u3002\u60a8\u4e5f\u53ef\u4ee5\u4f7f\u7528\u81ea\u5df1\u7684\u6a94\u6848\uff0c\u4e26\u5c07\u67d0\u4e9b\u4e3b\u6a5f\u52a0\u5165\u5230\u767d\u540d\u55ae\u548c\u9ed1\u540d\u55ae\u4e2d\u3002\nThere are options to run a local web server to respond to blocked host names and to direct requests to the IP address of your choosing instead.\n\n\u9700\u8981 root \u6b0a\u9650\uff1a\u662f\u3002hosts \u6a94\u6848\u4f4d\u65bc\u9810\u8a2d\u70ba\u552f\u8b80\u7684 /system \u76ee\u9304\u3002",
+          "summary": "AdAway \u662f\u500b\u4f7f\u7528 hosts \u6a94\u6848\u7684\u958b\u653e\u539f\u59cb\u78bc Android \u5ee3\u544a\u963b\u64cb\u7a0b\u5f0f\u3002"
+        }
+      }
+    },
     {
       "suggestedVersionCode": "9526",
       "license": "Unknown",
@@ -94,6 +373,52 @@
         "zh-Rcn": {
           "description": "DAVx\u2075\uff08\u539f\u540d DAVdroid\uff09\u662f\u4e00\u6b3e Android \u7684 CalDAV/CardDAV \u7ba1\u7406\u540c\u6b65\u5e94\u7528\uff0c\u4e0e Android \u7684\u65e5\u5386\u3001\u901a\u8baf\u5f55\u8f6f\u4ef6\u539f\u751f\u96c6\u6210\u3002\n\n\u901a\u8fc7\u8be5\u5e94\u7528\uff0c\u53ef\u5728\u81ea\u5df1\u7684\u670d\u52a1\u5668\u6216\u4fe1\u4efb\u7684\u6258\u7ba1\u5546\u4e0a\u4fdd\u5b58\u901a\u8baf\u5f55\u3001\u65f6\u95f4\u548c\u4efb\u52a1\u6570\u636e\uff0c\u4fdd\u8bc1\u53ef\u63a7\u3002\n\n\u8bf7\u6d4f\u89c8\u7f51\u7ad9\uff0c\u4e86\u89e3\u66f4\u591a\u4fe1\u606f\uff0c\u5305\u62ec\u6d4b\u8bd5\u901a\u8fc7\u7684\u670d\u52a1\u5668\u3001\u7f51\u7ad9\u5217\u8868\u3002",
           "summary": "CalDAV/CardDAV \u540c\u6b65\u5ba2\u6237\u7aef"
+        }
+      }
+    },
+    {
+      "authorName": "Kunzisoft",
+      "categories": [
+        "Security"
+      ],
+      "suggestedVersionCode": "18",
+      "license": "Unknown",
+      "name": "KeePass DX",
+      "webSite": "https://www.kunzisoft.com/KeepassDX",
+      "added": 1556282463000,
+      "icon": "com.kunzisoft.keepass.libre.18.png",
+      "packageName": "com.kunzisoft.keepass.libre",
+      "lastUpdated": 1556282533000,
+      "localized": {
+        "en-US": {
+          "description": "<b>Multi-format KeePass password manager</b>, the application allows to save and use passwords, keys and digital identities in a secure way by integrating the Android design standards.\n\n<b>Features</b> :\n - Create database files / entries and groups\n - Support for .kdb and .kdbx files (version 1 to 4) with AES - Twofish - ChaCha20 - Argon2 algorithm\n - Compatible with the majority of alternative programs (KeePass, KeePassX, KeePass XC...)\n - Allows fast copy of fields and opening of URI / URL\n - Fingerprint for fast unlocking\n - Material design with themes\n - AutoFill and Integration\n - Field filling keyboard\n - Precise management of settings\n\nKeepass DX is <b>opensource</b> and <b>ad-free</b>. \n\nYou can donate or buy the <a href=\"https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro\">pro version</a>\nfor a better service and a quick development of your features.\n\nAny issue : <a href=\"https://github.com/Kunzisoft/KeePassDX/issues\">https://github.com/Kunzisoft/KeePassDX/issues</a>\n",
+          "featureGraphic": "featureGraphic.png",
+          "icon": "icon.png",
+          "phoneScreenshots": [
+            "screen0.jpg",
+            "screen1.jpg",
+            "screen2.jpg",
+            "screen3.jpg",
+            "screen4.jpg",
+            "screen5.jpg",
+            "screen6.jpg",
+            "screen7.jpg"
+          ],
+          "summary": "KeePass Deluxe, secure and open source password manager\n"
+        },
+        "fr-FR": {
+          "description": "<b>Gestionnaire de mots de passe KeePass multiformats</b>, l'application permet d'enregistrer et d'utiliser de mani\u00e8re s\u00e9curis\u00e9e les mots de passe, les cl\u00e9s et les identit\u00e9s num\u00e9riques en int\u00e9grant les standards de conception Android.\n\n<b>Fonctionnalit\u00e9s</b> :\n - Cr\u00e9ation de bases de donn\u00e9es / entr\u00e9es et groupes\n - Support des fichiers .kdb et .kdbx (version 1 \u00e0 4) avec algorithme AES - Twofish - ChaCha20 - Argon2\n - Compatible avec la majorit\u00e9 des programmes alternatifs (KeePass, KeePassX, KeePass XC...)\n - Permet la copie rapide de champs et l'ouverture d'URI /URL\n - Empreintes digitales pour un d\u00e9blocage rapide des bases\n - Material design avec th\u00e8mes\n - Remplissage automatique de champs\n - Clavier de remplissage de champs\n - Gestion pr\u00e9cise des param\u00e8tres\n\nKeepass DX est <b>opensource</b> et <b>sans publicit\u00e9</b>. \n\nVous pouvez faire un don ou acheter la <a href=\"https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro\">version pro</a>\npour un meilleur service et un d\u00e9veloppement rapide de vos fonctionnalit\u00e9s.\n\nVous avez un bug : <a href=\"https://github.com/Kunzisoft/KeePassDX/issues\">https://github.com/Kunzisoft/KeePassDX/issues</a>\n",
+          "phoneScreenshots": [
+            "screen0.jpg",
+            "screen1.jpg",
+            "screen2.jpg",
+            "screen3.jpg",
+            "screen4.jpg",
+            "screen5.jpg",
+            "screen6.jpg",
+            "screen7.jpg"
+          ],
+          "summary": "KeePass Deluxe, gestionnaire de mots de passe s\u00e9curis\u00e9 et open source\n"
         }
       }
     },
@@ -528,6 +853,49 @@
         "versionName": "9.6.1.0"
       }
     ],
+    "com.kunzisoft.keepass.libre": [
+      {
+        "added": 1556282533000,
+        "apkName": "com.kunzisoft.keepass.libre_18.apk",
+        "hash": "708368a853896cbd2d749668c24521f2235310bf70497f58d5a00d043246b4e8",
+        "hashType": "sha256",
+        "minSdkVersion": "14",
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "mips64",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.kunzisoft.keepass.libre",
+        "sig": "ecdf550a8bc9dcd938abb7dc0aa32331",
+        "signer": "c810aab7efa4d5ad3fc2941fdf5f99b88a3b73f86219715627edb4dabac541a4",
+        "size": 7621878,
+        "targetSdkVersion": "27",
+        "uses-permission": [
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 18,
+        "versionName": "2.5.0.0beta18"
+      }
+    ],
     "com.vrem.wifianalyzer": [
       {
         "added": 1556281604000,
@@ -645,6 +1013,54 @@
         ],
         "versionCode": 337,
         "versionName": "3.3.7"
+      }
+    ],
+    "org.adaway": [
+      {
+        "added": 1556282535000,
+        "apkName": "org.adaway_40204.apk",
+        "hash": "f2df2fa5e0c67c822fed858117f4afd69586abd6b399a212b366cbbdcc5f1053",
+        "hashType": "sha256",
+        "minSdkVersion": "16",
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "org.adaway",
+        "sig": "5292cd7cf993d06d6f6741117b8400fc",
+        "signer": "42203f1ac857426d1496e971db96fbe1f88c25c9e1f895a5c98d703891292277",
+        "size": 5190733,
+        "targetSdkVersion": "28",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 40204,
+        "versionName": "4.2.4"
       }
     ]
   }

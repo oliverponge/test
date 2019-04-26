@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="default-repo-icon.png" name="MT-ITS" pubkey="30820503308202eba00302010202044b7b670e300d06092a864886f70d01010b050030323110300e060355040b1307462d44726f6964311e301c060355040313157265706f6d616b65722e662d64726f69642e6f7267301e170d3139303432363131353332355a170d3436303931313131353332355a30323110300e060355040b1307462d44726f6964311e301c060355040313157265706f6d616b65722e662d64726f69642e6f726730820222300d06092a864886f70d01010105000382020f003082020a0282020100918012a8693a0283cc7d62a2ecd7e5c3229b8d9e89a8eeb237910edb6e43483ade7609111f354586dbd916097c71663fe5e538f655730e1b0b29d69e3aa6d1d8d2d902d461d74b7298517cf3af3b0dafcc5af6cbade03b6dcdb36aad164c6beeb4ee7232dc034f6b68a66954edffa3a79a13a4d7e45585c8c90f6bcff881a35151227319fce36b444ae63b151f15b79989a5f876cafcf9b6014c5a0f6e3d5115c35982e7112e572ae3ce742e614bf53aa0d965f999037587256d830c3626b7a8e665a3fe2ec67d2441770c7ebafcdbeb58347b4ca9437f171655996de46c2c42ae7962e4237f38a7de93d27437d65611e8a339ff87063e7f25b32ae252a21ccc753af7b1dcc2ba13cf87ffef8645770a12256193c7c004cda9dc177e7f7de43f0272e18e2194ac77731f67d1946611f3b1c2fadf9a2d68fbae9e320b3572f55370cd17041a6155d2a07646aab7ad642aec9d9cdc8182d72c5779eca048a29c67590e8a032faf0f8b679eb544690c07172e2fad3ae787ed3c42578f2c1c8aaa31dce3ad9d1e0929de0b973a030ef1b1279d0a6e199c3248fbe4bda036cbe1eb48972a39d78389bec6d42a48ac5a926f97132d0ede8cf19a2b918df4d733645944ba1c3818aac6c47fda45b590979a9b097fde7c28b782fee633d96e6c62abeb883cb4e1e2bcd85ec670de57b16465825602ca1fe02c6cc79e85cebfd4345749410203010001a321301f301d0603551d0e04160414f8ed59d277e5982c68b5b4f2a5f8a196ae8c01f9300d06092a864886f70d01010b050003820201002c395f664c1a7a8118b56674842f0f5ee870006c10ff19cd714f7728d230c5ff9934a00d33c4f01205ec61c0ac29d12651c7f99fd14ec77d1d62b5bbeb4aff7f72e439760a1273d7efdc602cc8ba684e29618430b59d48c91e21add614dfe996d1810e723f122510db278d904e1708ab0bff5342c5c58aecdbec4497e6d10ea1ddc4d28900db614818cd9cbedca6c21b243e64ca67e7a7296ef9a15068f3eadfa7cd46a0fdfae4ef04db5e3a1387462adba5bd9274a0a07371e8f7b8897a3f39992a8d5273ce9d56877f466cb73ece4eb6018f65f31db628674ddba94894c59974b429c0d2cb9fc77fb532a07655178ac8e2d2daf79ee10040d2bef91cd6e93399830ba1d1b34b0af524aa3cbedd4ed7fe35e97fe44478f29d3edf82e64d6e93335827f7a26beca4778c2fa5b57b4a4ed0e5caafa47dd9656d6ddb11640e2c399defa9c6c8dc713aef0e5c1eb9363ce40a7d23da7d0ebf67b4406e38c4f7b57c87cfd3171cf7d0c72bf6733e95ea8358ac2bb375a5c97de4d946ea9d6f6abf3522403ab9a0df128fe69c748b3fafdd5417e669545290914d876f5bf201579abdab135fa93efe86df2341ca474315ba2f1b427f4674ca2f16dd608836ffcb65f7313422e4fa5bdfbc670c88a7f61b961541f85e344445b7648d962774f8f3c009a081fedcaa7ff7ef5fd59c0537d815ec8891b951e7cccd69172aff01e31766bd" timestamp="1556280807" url="https://raw.githubusercontent.com/oliverponge/MT-ITS/master/fdroid/repo" version="19">
+		<description>MediaTronic IT Solutions - Repo</description>
+		<mirror>https://raw.githubusercontent.com/oliverponge/MT-ITS/master/fdroid/repo/repo</mirror>
+	</repo>
+	<application id="at.bitfire.davdroid">
+		<id>at.bitfire.davdroid</id>
+		<added>2019-04-26</added>
+		<lastupdated>2019-04-26</lastupdated>
+		<name>DAVx⁵</name>
+		<summary>CalDAV/CardDAV Synchronization and Client
+</summary>
+		<icon>at.bitfire.davdroid.280.png</icon>
+		<desc>DAVx⁵ (formerly DAVdroid) is a CalDAV/CardDAV management and synchronization app for Android which natively integrates with Android calendar/contact apps.
+
+Use it with your own server or with a trusted hoster to keep your contacts, events and tasks under your control.
+
+For more information and a list of tested servers/services, have a look at the Web site.
+</desc>
+		<license>Unknown</license>
+		<categories>Internet</categories>
+		<category>Internet</category>
+		<web>https://www.davx5.com/</web>
+		<source></source>
+		<tracker></tracker>
+		<author>bitfire web engineering</author>
+		<marketversion></marketversion>
+		<marketvercode>280</marketvercode>
+		<package>
+			<version>2.4.0.1-ose</version>
+			<versioncode>280</versioncode>
+			<apkname>at.bitfire.davdroid_280.apk</apkname>
+			<hash type="sha256">3043f955a751f9be69dd11d69da261a3c584aa10c82c844cb4380f3fe2860b6a</hash>
+			<size>5853908</size>
+			<sdkver>19</sdkver>
+			<targetSdkVersion>28</targetSdkVersion>
+			<added>2019-04-26</added>
+			<sig>03542175324d067b4c36582242f8aecc</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,AUTHENTICATE_ACCOUNTS,GET_ACCOUNTS,INTERNET,MANAGE_ACCOUNTS,READ_CALENDAR,READ_CONTACTS,READ_SYNC_SETTINGS,READ_SYNC_STATS,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,WRITE_CALENDAR,WRITE_CONTACTS,WRITE_SYNC_SETTINGS,org.dmfs.permission.READ_TASKS,org.dmfs.permission.WRITE_TASKS</permissions>
+			<uses-permission maxSdkVersion="22" name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+			<uses-permission maxSdkVersion="22" name="android.permission.GET_ACCOUNTS"/>
+			<uses-permission maxSdkVersion="22" name="android.permission.MANAGE_ACCOUNTS"/>
+		</package>
+	</application>
+	<application id="net.osmand.plus">
+		<id>net.osmand.plus</id>
+		<added>2019-04-26</added>
+		<lastupdated>2019-04-26</lastupdated>
+		<name>OsmAnd~</name>
+		<summary>Global Mobile Map Viewing &amp; Navigation for Offline and Online OSM Maps
+</summary>
+		<icon>net.osmand.plus.337.png</icon>
+		<desc>OsmAnd+ (OSM Automated Navigation Directions) is a map and navigation application with access to the free, worldwide, and high-quality OpenStreetMap (OSM) data.
+Enjoy voice and optical navigation, viewing POIs (points of interest), creating and managing GPX tracks, using contour lines visualization and altitude info, a choice between driving, cycling, pedestrian modes, OSM editing and much more.
+
+OsmAnd+ is the full version of this app. Please donate to support the project, fund the development of new features, and receive the latest updates.
+
+Some of the main features:
+Navigation
+ • Works online (fast) or offline (no roaming charges when you are abroad)
+ • Turn-by-turn voice guidance (recorded and synthesized voices)
+ • Optional lane guidance, street name display, and estimated time of arrival
+ • Supports intermediate points on your itinerary
+ • Automatic re-routing whenever you deviate from the route
+ • Search for places by address, by type (e.g.: restaurant, hotel, gas station, museum), or by geographical coordinates
+
+Map Viewing
+ • Display your position and orientation
+ • Optionally align the picture according to compass or your direction of motion
+ • Save your most important places as Favorites
+ • Display POIs (point of interests) around you
+ • Display specialized online tiles, satellite view (from Bing), different overlays like touring/navigation GPX tracks and additional layers with customizable transparency
+ • Optionally display place names in English, local, or phonetic spelling
+
+Use OSM and Wikipedia Data
+ • High-quality information from the best collaborative projects of the world
+ • OSM data available per country or region
+ • Wikipedia POIs, great for sightseeing
+ • Unlimited free downloads, directly from the app
+ • Compact offline vector maps updated at least once a month
+
+ • Selection between complete region data and just road network (Example: All of Japan is 700 MB or 200 MB for the road network only)
+
+Safety Features
+ • Optional automated day/night view switching
+ • Optional speed limit display, with reminder if you exceed it
+ • Optional speed-dependent zooming
+ • Share your location so that your friends can find you
+
+Bicycle and Pedestrian Features
+ • Viewing foot, hiking, and bike paths, great for outdoor activities
+ • Special routing and display modes for bike and pedestrian
+ • Optional public transport stops (bus, tram, train) including line names
+ • Optional trip recording to local GPX file or online service
+ • Optional speed and altitude display
+ • Display of contour lines and hill-shading (via additional plugin)
+
+Directly Contribute to OSM
+ • Report data bugs
+ • Upload GPX tracks to OSM directly from the app
+ • Add POIs and directly upload them to OSM (or later if offline)
+ • Optional trip recording also in background mode (while device is in sleep mode)
+OsmAnd is open-source and actively being developed. Everyone can contribute to the application by reporting bugs, improving translations or coding new features. The project is in a lively state of continuous improvement by all these forms of developer and user interaction. The project progress also relies on financial contributions to fund coding and testing of new functionalities.
+Approximate map coverage and quality:
+ • Western Europe: ****
+ • Eastern Europe: ***
+ • Russia: ***
+ • North America: ***
+ • South America: **
+ • Asia: **
+ • Japan &amp;amp; Korea: ***
+ • Middle East: **
+ • Africa: **
+ • Antarctica: *
+Most countries around the globe available as downloads!
+From Afghanistan to Zimbabwe, from Australia to the USA. Argentina, Brazil, Canada, France, Germany, Mexico, UK, Spain, ...
+
+Anti-Features:
+* NonFreeAssets - Artwork and layouts are under a non-commercial license.
+* NonFreeNet - May download images from nonfree Mapillary online service
+* NonFreeAdd - Proposes to download a proprietary app (Mapillary) from Google Play Store to add photos to their service
+</desc>
+		<license>Unknown</license>
+		<categories>Navigation</categories>
+		<category>Navigation</category>
+		<web>http://osmand.net</web>
+		<source></source>
+		<tracker></tracker>
+		<marketversion></marketversion>
+		<marketvercode>337</marketvercode>
+		<package>
+			<version>3.3.7</version>
+			<versioncode>337</versioncode>
+			<apkname>net.osmand.plus_337.apk</apkname>
+			<hash type="sha256">ddd7e15c76a7190bc47f293b86520aa4b0e505eb0ca7eec7170d48eecfeb81f4</hash>
+			<size>88802820</size>
+			<sdkver>14</sdkver>
+			<targetSdkVersion>26</targetSdkVersion>
+			<added>2019-04-26</added>
+			<sig>62de1ed5da5b716973da89258848e7bc</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_LOCATION_EXTRA_COMMANDS,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE,BLUETOOTH,BROADCAST_STICKY,CAMERA,INTERNET,MODIFY_AUDIO_SETTINGS,READ_EXTERNAL_STORAGE,RECORD_AUDIO,STORAGE,VIBRATE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE</permissions>
+			<uses-permission maxSdkVersion="18" name="android.permission.BLUETOOTH"/>
+			<uses-permission maxSdkVersion="18" name="android.permission.BROADCAST_STICKY"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86</nativecode>
+		</package>
+	</application>
+</fdroid>

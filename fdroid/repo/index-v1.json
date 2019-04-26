@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1556282634000,
+    "timestamp": 1556282793000,
     "version": 19,
     "name": "MT-ITS",
     "icon": "default-repo-icon.png",
@@ -294,15 +294,6 @@
           "summary": "AdAway \u662f\u500b\u4f7f\u7528 hosts \u6a94\u6848\u7684\u958b\u653e\u539f\u59cb\u78bc Android \u5ee3\u544a\u963b\u64cb\u7a0b\u5f0f\u3002"
         }
       }
-    },
-    {
-      "suggestedVersionCode": "9526",
-      "license": "Unknown",
-      "name": "Aptoide",
-      "added": 1556281750000,
-      "icon": "cm.aptoide.pt.9526.png",
-      "packageName": "cm.aptoide.pt",
-      "lastUpdated": 1556281755000
     },
     {
       "authorName": "bitfire web engineering",
@@ -830,108 +821,6 @@
         ],
         "versionCode": 280,
         "versionName": "2.4.0.1-ose"
-      }
-    ],
-    "cm.aptoide.pt": [
-      {
-        "added": 1556281755000,
-        "apkName": "aptoide-latest.apk",
-        "hash": "f12c761a15bd696bb864651b81e17deb3ddfd6220cd028cdd06269a95e70328d",
-        "hashType": "sha256",
-        "minSdkVersion": "15",
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi",
-          "armeabi-v7a",
-          "mips",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "cm.aptoide.pt",
-        "sig": "5c92413ebb9240fa5832e7047e1a61a8",
-        "signer": "73534d45c1345a4783c7eff2cf6038551ab5fdf09673f32c68c3b0864baa80e4",
-        "size": 26074343,
-        "targetSdkVersion": "25",
-        "uses-permission": [
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_STATS",
-            null
-          ],
-          [
-            "com.android.launcher.permission.INSTALL_SHORTCUT",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.INSTALL_PACKAGES",
-            null
-          ],
-          [
-            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-            null
-          ],
-          [
-            "android.permission.ACCESS_WIFI_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.WRITE_SYNC_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.AUTHENTICATE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.GET_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.MANAGE_ACCOUNTS",
-            null
-          ],
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.USE_CREDENTIALS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            null
-          ],
-          [
-            "android.permission.CAMERA",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ]
-        ],
-        "versionCode": 9526,
-        "versionName": "9.6.1.0"
       }
     ],
     "com.kunzisoft.keepass.libre": [

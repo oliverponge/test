@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1556284534000,
+    "timestamp": 1556284563000,
     "version": 19,
     "name": "MT-ITS",
     "icon": "default-repo-icon.png",
@@ -546,6 +546,10 @@
       }
     },
     {
+      "categories": [
+        "Connectivity",
+        "Phone & SMS"
+      ],
       "suggestedVersionCode": "187",
       "license": "Unknown",
       "name": "Mattermost",

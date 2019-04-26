@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1556281483000,
+    "timestamp": 1556281605000,
     "version": 19,
     "name": "MT-ITS",
     "icon": "default-repo-icon.png",
@@ -281,6 +281,50 @@
           "summary": "\u5168\u7403\u5730\u5716\u6aa2\u8996\u5668\u53ca\u96e2\u7dda\u548c\u7dda\u4e0a OSM \u5730\u5716\u5c0e\u822a\n"
         }
       }
+    },
+    {
+      "categories": [
+        "Connectivity"
+      ],
+      "suggestedVersionCode": "44",
+      "license": "Unknown",
+      "name": "WiFiAnalyzer",
+      "webSite": "https://vremsoftwaredevelopment.github.io/WiFiAnalyzer",
+      "added": 1556281526000,
+      "icon": "com.vrem.wifianalyzer.44.png",
+      "packageName": "com.vrem.wifianalyzer",
+      "lastUpdated": 1556281604000,
+      "localized": {
+        "en": {
+          "description": "<p>Optimize your WiFi network by examining surrounding WiFi networks, measuring their signal strength as well as identifying crowded channels.</p><p>Features:</p><ul><li> Identify nearby Access Points</li><li> Graph channels signal strength</li><li> Graph Access Point signal strength over time</li><li> Analyze WiFi networks to rate channels</li><li> HT/VHT Detection - 40/80/160MHz (Requires Android OS 6+)</li><li> Access Point view complete or compact</li><li> Estimated Distance to the Access Points</li><li> Export access points details</li><li> Dark or Light theme available</li><li> Pause/Resume scanning</li><li> Available filters: WiFi band, Signal strength, Security and SSID</li><li> Vendor/OUI Database Lookup</li></ul>",
+          "summary": "Optimize your WiFi network"
+        },
+        "en-US": {
+          "featureGraphic": "featureGraphic.png",
+          "icon": "icon.png",
+          "phoneScreenshots": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png",
+            "06.png",
+            "07.png",
+            "08.png",
+            "09.png"
+          ],
+          "sevenInchScreenshots": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "06.png",
+            "07.png",
+            "08.png",
+            "09.png"
+          ]
+        }
+      }
     }
   ],
   "packages": {
@@ -370,6 +414,38 @@
         ],
         "versionCode": 280,
         "versionName": "2.4.0.1-ose"
+      }
+    ],
+    "com.vrem.wifianalyzer": [
+      {
+        "added": 1556281604000,
+        "apkName": "com.vrem.wifianalyzer_44.apk",
+        "hash": "935fd7e0fb47504ee1549ea7362ab1d8aadd9725296c86342cabc700a27fc0c1",
+        "hashType": "sha256",
+        "minSdkVersion": "19",
+        "packageName": "com.vrem.wifianalyzer",
+        "sig": "e0ac808619f3b38a33b54ebaeb107bbf",
+        "signer": "3a14f8bbead3d530ae0aa0b578b945bdd7667b6e2e27da30cd46349356998f3e",
+        "size": 2002381,
+        "targetSdkVersion": "28",
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ]
+        ],
+        "versionCode": 44,
+        "versionName": "2.0.3"
       }
     ],
     "net.osmand.plus": [

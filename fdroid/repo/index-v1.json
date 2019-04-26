@@ -1,12 +1,13 @@
 {
   "repo": {
-    "timestamp": 1556281235000,
+    "timestamp": 1556281381000,
     "version": 19,
     "name": "MT-ITS",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/oliverponge/MT-ITS/master/fdroid/repo",
     "description": "MediaTronic IT Solutions - Repo",
     "mirrors": [
+      "https://raw.githubusercontent.com/oliverponge/MT-ITS/master/fdroid/repo/repo",
       "https://raw.githubusercontent.com/oliverponge/MT-ITS/master/fdroid/repo/repo",
       "https://raw.githubusercontent.com/oliverponge/MT-ITS/master/fdroid/repo/repo"
     ]
